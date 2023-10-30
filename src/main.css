@@ -1,0 +1,221 @@
+.template-card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.normal-divider {
+    height: 32px;
+}
+
+.normal-divider-micro {
+    height: 16px;
+}
+
+.normal-divider-nano {
+    height: 8px;
+}
+
+.image-preview-cover {
+    object-fit: cover;
+    height: 240px;
+    width: 100%;
+}
+
+.image-selector-container::-webkit-scrollbar {
+    width: 2px;
+}
+
+.image-selector-container {
+    overflow: scroll;
+    max-height: 600px;
+}
+
+
+/* elui css */
+.el-popover {
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.el-popover::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* editor panel */
+.template-trash {
+    width: 100%;
+    height: 80px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #aaaaaa;
+}
+
+.template-selected {
+    outline: 1px solid #4cafac;
+}
+
+.template-selected .template-slot {
+    outline: 1px solid #4cafac;
+}
+
+.slot-control-item-handle {
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.list-item {
+    min-height: 36px;
+    border-radius: 2px;
+}
+
+.list-item-title {
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 36px;
+    text-align: start;
+}
+
+.list-item-control {
+    text-align: end;
+}
+
+.list-item-control div {
+    height: 100%;
+}
+
+/* template css */
+.template-container-root {
+    min-height: 720px;
+    max-width: 360px;
+    border: 1px solid #aaaaaa !important;
+    height: auto;
+    padding: 4px;
+    overflow-x: hidden;
+}
+
+.template-container-root::-webkit-scrollbar {
+    width: 2px;
+}
+
+.template-container {
+    height: auto;
+    padding: 2px !important;
+    margin: 2px !important;
+}
+
+.template-slot {
+    border: 1px solid #aaaaaa66;
+    min-height: 36px !important;
+    margin: 0px !important;
+    padding: 2px !important;
+}
+
+.template-item {
+    width: 100%;
+    margin: 1px 0;
+}
+
+.template-default-button {
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #4cafac;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.template-default-text-single {
+    line-height: 36px;
+    vertical-align: center;
+    min-height: 36px;
+    margin: 0;
+}
+
+.template-default-input {
+    width: 100%;
+    height: 36px;
+    padding: 0 8px;
+    margin: 0;
+    border: 1px solid #aaaaaa;
+    box-sizing: border-box;
+    border-radius: 2px;
+    outline: 0;
+    cursor: text;
+}
+
+.template-default-text-multi {
+    line-height: 20px;
+    min-height: 36px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.template-image-title {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.template-divider {
+    display: flex;
+    flex-direction: row;
+    min-height: 12px;
+}
+
+.template-divider:before,
+.template-divider:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+.template-divider:before {
+    margin-right: 0px
+}
+
+.template-divider:after {
+    margin-left: 0px
+}
+
+
+.header-footer {
+    height: 36px;
+}
+
+.template-slot-release {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.template-container-release {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.template-preview {
+    margin: 8px 0;
+    padding: 2px;
+    border: #aaaaaa 1px dotted;
+    border-radius: 2px;
+}
+
+.template-ghost {
+    background: #eeeeee;
+    opacity: 0.75;
+    height: 0px;
+    border: 1px solid #4cafac;
+    overflow: hidden;
+}
+
+.template-drag {
+    opacity: 0.1;
+    background-color: white;
+}
